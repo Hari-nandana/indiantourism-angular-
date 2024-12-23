@@ -1,0 +1,16 @@
+<owl-carousel-o [options]="customOptions" style="margin-top: 20px;">
+
+    <ng-container *ngFor="let slide of cimages">
+      <ng-template carouselSlide [id]="slide.id.toString()">
+        <img [src]="slide.src" [alt]="slide.alt">
+      </ng-template>
+    </ng-container>
+
+  </owl-carousel-o>
+
+<div style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8rMzAy2OROd2d1xMXi1mt60AYLEt3-7KDbg&s); border-radius: 20px; width:100%; height:45px; justify-content: center; margin-top: 20px;">
+
+  <h1 style=" color: brown; font-weight: bold;" >INDIAN TOURISM</h1>
+
+    <p style="color: rgb(11, 10, 10); font-style: italic; font-weight: bold;"> Indian tourism is one of the most diverse and attractive in the world, drawing millions of visitors every year. Known for its rich history, diverse cultures, and stunning landscapes, India offers a range of experiences, from the bustling streets of cities to tranquil rural retreats. Major cities like Delhi, Mumbai, and Bangalore are known for their modernity, historical landmarks, and vibrant culture, while destinations like Agra, with the iconic Taj Mahal, and Jaipur, with its royal palaces and forts, showcase the country’s rich heritage. India's spiritual destinations, such as Varanasi on the banks of the Ganges, and the holy temples of Kerala and Uttarakhand, offer a unique experience for travelers seeking peace and spiritual awakening. Natural beauty is found in abundance, with the serene backwaters of Kerala, the golden deserts of Rajasthan, and the snow-capped peaks of the Himalayas offering breathtaking views and opportunities for adventure. The country is also famous for its festivals, cuisine, and vibrant local traditions that attract tourists looking for cultural immersion. With its warm hospitality, diverse attractions, and unmatched history, India continues to be one of the most sought-after tourist destinations in the world.</p>
+</div>
